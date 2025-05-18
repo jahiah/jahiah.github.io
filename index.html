@@ -118,149 +118,165 @@
 
 
             </div>
-
-
-
           </div>
         </div>
       </div>
     </div>
 
-
-
-    <section class="site-section border-bottom" id="projects-section">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-md-8 text-center">
-            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Projects</h2>
-          </div>
+  <section class="site-section border-bottom" id="projects-section">
+    <div class="container">
+      <div class="row mb-5 justify-content-center">
+        <div class="col-md-8 text-center">
+          <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Projects</h2>
         </div>
-        <div class="row">
-          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
-
-            <img src="" alt="Image of your project" class="img-fluid">
-
-          </div>
-          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
-            <div class="mb-4">
-              <h3> The Birthday Paradox Project </h3>
-              <p>
-                Motivation of the project
-              </p>
-              The Birthday Paradox is a phenomenon where it is likely that two people within a group share a birthday.
-              This phenomenon increases as the amount of people within the group increases.
-
-              <p>
-              <p></p>
-              Functionality
-              </p>
-              This project simulates the Birthday Paradox by running experiments with groups of 5 to 100 people,
-              incrementing by 5.
-              Each experiment runs 20 trials and checks if at least two people share a birthday.
-              <p>
-              <p></p>
-              Project design
-              </p>
-              The four classes within the project include:
-              Simulation.java: Runs experiments and prints the results.
-              Experiment.java: Manages the experiment and unning trials for different group sizes.
-              Trial.java: Simulates a single trial and checking if two people share a birthday.
-              Birthday.java: Generates a valid random birthday for each person.
-              <p>
-              <p></p>
-              Implementation</p>
-              <p>
-                I worked on the Experiment.java, Trial.java, and Birthday.java classes. The Experiment class runs
-                multiple trials for each group size.
-                While the Trial class checks if two people in a group share the same birthday. I also implementated
-                test-driven development.
-                <a href="https://github.com/usd-comp-305/project-01-jenna-and-jahiah"> <p> Click here to view the code</p></a>
-              </p>
-            </div>
-          
-          
-
-
-
+      </div>
+  
+      <!-- First Project: Birthday Paradox -->
       <div class="row">
-      <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
-
-        <img src="" alt="Image of your project" class="img-fluid">
-
+        <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+          <img src="" alt="Image of your project" class="img-fluid">
         </div>
-         <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
           <div class="mb-4">
-       
-                <h3> The Elevator Project </h3>
-                <p>
-                  Motivation of the project
-                </p>
-                The Elevator Project consists of a abstract Elevator class, a interface of the scheduler, a concrete classes of simple scheduler and complex schedulers, Call,  a Enum of Directions that the elevator can go.
-                The Elevator in this project extend the Elevator class.
-            
-                <p>
-                <p></p>
-                Functionality
-                </p>
-                This project simulates a call to a Standard, Freight, Pent House, and  Express elevators.
-                 Which are assigned a call based on a complex or simple scheduler. 
-                <p>
-                <p></p>
-                Project design
-                </p>
-                The elevator is broken into three main parts Elevator, Call, and Scheduler:
-                The elevator, standard, is able to vist every floor yet will not change direction to pick up a call . 
-                The Freight elevator  is able to vist every floor and will not accept a new class unless the elevator is empty, however it will change direction to pick up a call.
-                The Pent House elevator vists the top and ground floors only when empty and will change direction to pick up a call.
-                The Express elevator vists the top half of the building and will accept a new call if the current and new call are going in the same direction.
-                <p>
-                <p></p>
-                Implementation</p>
-                <p>
-                  I designed the scheduler interface and both type of scheduler, simple and complex classes.
-                  Both schedulers included the following methods, assignCall, hasPendiingCalls, and unassignedCalls. The complex scheduler however has a more complex assignCall function because it has to locate the location and direction of a call to evlaute if it could be assigned a elevator.
-                  <a href="https://github.com/usd-comp-305/project-03-jahiah-iby-jared">
-                    <p> Click here to view the code</p>
-                  </a>
-                </p>
-              </div>
-           
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            <h3>The Birthday Paradox Project</h3>
+            <p>
+              Motivation of the project
+            </p>
+            The Birthday Paradox is a phenomenon where it is likely that two people within a group share a birthday.
+            This phenomenon increases as the amount of people within the group increases.
+  
+            <p>
+            <p></p>
+            Functionality
+            </p>
+            This project simulates the Birthday Paradox by running experiments with groups of 5 to 100 people,
+            incrementing by 5.
+            Each experiment runs 20 trials and checks if at least two people share a birthday.
+            <p>
+            <p></p>
+            Project design
+            </p>
+            The four classes within the project include:
+            Simulation.java: Runs experiments and prints the results.
+            Experiment.java: Manages the experiment and unning trials for different group sizes.
+            Trial.java: Simulates a single trial and checking if two people share a birthday.
+            Birthday.java: Generates a valid random birthday for each person.
+            <p>
+            <p></p>
+            Implementation</p>
+            <p>
+              I worked on the Experiment.java, Trial.java, and Birthday.java classes. The Experiment class runs
+              multiple trials for each group size.
+              While the Trial class checks if two people in a group share the same birthday. I also implementated
+              test-driven development.
+              <a href="https://github.com/usd-comp-305/project-01-jenna-and-jahiah">
+                <p> Click here to view the code</p>
+              </a>
+            </p>
           </div>
         </div>
       </div>
+  
+      <!-- Second Project: Elevator Project -->
+      <div class="row">
+        <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+          <img src="" alt="Image of your project" class="img-fluid">
+        </div>
+        <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+          <div class="mb-4">
+            <h3>The Elevator Project</h3>
+            <p>
+              Motivation of the project
+            </p>
+            The Elevator Project consists of a abstract Elevator class, a interface of the scheduler, a concrete classes
+            of simple scheduler and complex schedulers, Call, a Enum of Directions that the elevator can go.
+            The Elevator in this project extend the Elevator class.
+  
+            <p>
+            <p></p>
+            Functionality
+            </p>
+            This project simulates a call to a Standard, Freight, Pent House, and Express elevators.
+            Which are assigned a call based on a complex or simple scheduler.
+            <p>
+            <p></p>
+            Project design
+            </p>
+            The elevator is broken into three main parts Elevator, Call, and Scheduler:
+            The elevator, standard, is able to vist every floor yet will not change direction to pick up a call.
+            The Freight elevator is able to vist every floor and will not accept a new class unless the elevator is empty,
+            however it will change direction to pick up a call.
+            The Pent House elevator vists the top and ground floors only when empty and will change direction to pick up a
+            call.
+            The Express elevator vists the top half of the building and will accept a new call if the current and new call
+            are going in the same direction.
+            <p>
+            <p></p>
+            Implementation</p>
+            <p>
+              I designed the scheduler interface and both type of scheduler, simple and complex classes.
+              Both schedulers included the following methods, assignCall, hasPendiingCalls, and unassignedCalls. The
+              complex scheduler however has a more complex assignCall function because it has to locate the location and
+              direction of a call to evlaute if it could be assigned a elevator.
+              <a href="https://github.com/usd-comp-305/project-03-jahiah-iby-jared">
+                <p>Click here to view the code</p>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Third Project: Vehicle Rental Project -->
+      <div class="row">
+        <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+          <img src="" alt="Image of your project" class="img-fluid">
+        </div>
+        <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+          <div class="mb-4">
+            <h3>The Vehicle Rental Project</h3>
+            <p>
+              Motivation of the project
+            </p>
+            My team and I wanted to simulate the experience of a Vehicle Rental Service.
+            The vehicles range from cars and trucks to bikes.
+            All with different types that the customer can choose from.
+  
+            <p>
+            <p></p>
+            Functionality
+            </p>
+            This project has three main compoemnets Vehicle, Customer, and Rental Request.
+            <p>
+            <p></p>
+            Project design
+            </p>
+            The Vehicle class hold the methods that Car, Bike, and Truck extend from.
+            These three vehicles only have one method that differs, the getPrice method.
+            The getPrice method is used by the Car, Bike, and Truck's enums which hold
+            there types such as Standard Car or Road Bike along with their price such as $100 or $70.
+            The customer class chekcs for the eligiblity of the customer and when their rental will start and end.
+            The Rental Request chceck if the cutsomer information is valid and if the vehicle is available to rent.
+            If those two things check out than the Vehicle will be assigned to the customer.
+            <p>
+            <p></p>
+            Implementation</p>
+            <p>
+              This project uses a the Straggy deisgn pattern along with following the OOP and SOLID Prinicples.
+              The Car, Bike, and Truck are all related in the Vehicle family and based on the customer choice
+              of Car, Bike, and Truck along with the type of vehicle they choice the strategy pattern is
+              used to determine the price through the vehicles enum type.
+              <a href="https://github.com/usd-comp-305/project-04-jahiah-jared">
+                <p>Click here to view the code</p>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
 
-
-    </section>
-
+   
 
     <section class="site-section" id="contact-section" data-aos="fade">
       <div class="container">
